@@ -1,0 +1,38 @@
+body {background-color: #4a464d;;
+}
+
+nav.nav-extended{
+    height: 200px;
+}
+
+.nav-extended{
+    background-image: url("imagem/principal.png");
+    background-color: #170420;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+
+nav ul li.active, .tab a.active{ /*a virgula deixa pegar uma mesma style para dois caminhos diferentes*/
+    border-bottom: solid 2px #ffffff;
+    background-color: transparent;
+}
+
+.nav-header h1{
+    color: white;
+    text-shadow: 2px 2px 8px #fff;
+    margin-bottom: 0px;
+}
+
+.nav-content, .btn-floating i  {
+    background-color: #EB3661;
+}
+
+.card .card-content{
+    background-color: #e74e72;
+
+}
+
+div.input-field{
+    border-bottom: 2px solid #4a464d;
+}
