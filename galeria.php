@@ -1,7 +1,8 @@
 <?php include "cabecalho.php";
 session_start();
 
-include_once "repository/FilmesRepositoryPDO.php"?>
+include_once "repository/FilmesRepositoryPDO.php";
+include_once "util/Mensagem.php";?>
 
 <?php
 $filmesRepository = new FilmesRepositoryPDO();
@@ -45,6 +46,8 @@ $filmes = $filmesRepository->listarTodos();
     </div>
 
 </main>
+<?= Mensagem::mostrar();?>
 
+</body>
 </html>
 

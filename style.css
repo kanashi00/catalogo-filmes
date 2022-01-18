@@ -32,7 +32,3 @@ nav ul li.active, .tab a.active{ /*a virgula deixa pegar uma mesma style para do
     background-color: #e74e72;
 
 }
-
-div.input-field{
-    border-bottom: 2px solid #4a464d;
-}

@@ -42,7 +42,7 @@
                     </div>
                     </form>
                     <div class="card-action">
-                        <a href="galeria.php" class="waves-effect waves-light btn grey">Cancelar</a>
+                        <a href="/" class="waves-effect waves-light btn grey">Cancelar</a>
                         <button type="submit" class="waves-effect waves-light btn #00acc1 cyan darken-1">Cadastrar</button> <!-- botão de ação principal-->
                     </div>
                 </div>

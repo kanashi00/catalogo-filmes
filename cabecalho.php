@@ -22,8 +22,8 @@
         <nav class="nav-extended">
         <div class="nav-wrapper ">
                 <ul  class="right"> <!-- essa class deixa oculto o menu quando mobile-->
-                    <li id="galeria"><a href="galeria.php">Galeria</a></li>
-                    <li id="cadastro"><a href="cadastrar.php" >Cadastrar</a></li>
+                    <li id="galeria"><a href="/">Galeria</a></li>
+                    <li id="cadastro"><a href="/novo" >Cadastrar</a></li>
                 </ul>
             </div>
 
